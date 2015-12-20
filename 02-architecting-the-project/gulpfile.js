@@ -16,4 +16,4 @@ gulp.task('watchers', function() {
 	gulp.watch('src/**/*.js', ['js']);
 });
 
-gulp.task('defaul', ['js', 'watchers'])
+gulp.task('default', ['js', 'watchers']);
