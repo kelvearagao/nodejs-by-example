@@ -60,3 +60,5 @@ var assets = function(req, res) {
 var app = http.createServer(assets).listen(port, host);
 
 console.log("Listen on " + host + ":" + port);
+
+// sudo ln -s /usr/bin/nodejs /usr/bin/node
